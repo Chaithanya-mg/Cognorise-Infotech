@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('images/img1.jpg');
+    background-size: cover; /* Makes the background image cover the entire page */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.app-container {
+    background-image: url('images/img2.jpg'); /* Change this to your image path */
+    background-size: cover; /* Makes the background image cover the container */
+    background-position: center; /* Centers the background image */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.todo-input {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #d6d9d9;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#addTaskBtn {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: rgb(3, 33, 5);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#addTaskBtn:hover {
+    background-color:rgba(220, 53, 69, 0.8);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: rgba(232, 223, 223, 0.8);
+    padding: 10px;
+    border: 1px solid #033808;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    border: none;
+    background-color: #dc3545;
+    color: rgba(212, 207, 207, 0.259);
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #c82333;
+}

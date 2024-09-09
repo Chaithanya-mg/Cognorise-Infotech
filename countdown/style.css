@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(images/img1.jpg);
+    background-size: cover;
+    background-position:center ;
+    background-repeat:no-repeat;
+    color: #61dafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Add a slight overlay to make text visible */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.time-section {
+    margin: 0 15px;
+}
+
+.time-section span {
+    font-size: 48px;
+    display: block;
+}
+
+.time-section p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.set-time {
+    margin-top: 20px;
+}
+
+input[type="datetime-local"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #61dafb;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    color: #282c34;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4ec0e8;
+}
